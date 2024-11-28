@@ -28,9 +28,9 @@ class AsyncPreferenceCollector(PreferenceCollector):
 
     def collect_preference(
         self,
-        prompts: str | List[str],
+        prompts,
         formatted_prompts: List[str],
-        refs: str | List[str],
+        refs,
     ):
         # generate response & get feedback
         st_time = time.time()
