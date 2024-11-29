@@ -29,7 +29,7 @@ class AsyncPreferenceCollector(PreferenceCollector):
     def collect_preference(
         self,
         prompts,
-        formatted_prompts: List[str],
+        formatted_prompts,
         refs,
     ):
         # generate response & get feedback
